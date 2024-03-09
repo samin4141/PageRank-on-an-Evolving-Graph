@@ -1,0 +1,5 @@
+This data-mining project is a reproduction of the following paper:
+
+Bahmani, Bahman & Kumar, Ravi & Mahdian, Mohammad & Upfal, Eli. (2012). PageRank on an evolving graph. Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. 10.1145/2339530.2339539. 
+
+One of the most important features of the Web graph and social networks is that they are constantly evolving. The classical computational paradigm, which assumes a fixed dat a set as an input to an algorithm that terminates, is inadequate for such settings. In this paper we study the problem of computing PageRank on an evolving graph. We propose an algorithm that, at any moment in the time and by crawling a small portion of the graph, provides an estimate of the PageRank that is close to the true PageRank of the graph at that moment. We will also evaluate our algorithm experimentally on real data sets and on randomly generated inputs. Under a stylized model of graph evolution, we show that our algorithm achieves a provable performance guarantee that is significantly better than the naive algorithm that crawls the nodes in a round-robin fashion.
